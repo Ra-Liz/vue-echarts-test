@@ -59,22 +59,6 @@ const setChartOptions = async () => {
       tooltip: {
         trigger: 'axis'
       },
-      toolbox: {
-        feature: {
-          saveAsImage: {
-            title: '下载图片'
-          },
-          // 自定义只能以my开头
-          myCustomFunc: {
-            show: true,
-            title: '自定义工具',
-            icon: 'image://https://echarts.apache.org/zh/images/favicon.png',
-            onclick: function () {
-              console.log('toolbox工具项自定义')
-            }
-          }
-        }
-      },
       legend: {
         data: legendData
       },
@@ -161,5 +145,3 @@ onMounted(() => {
   })
 })
 </script>
-
-<style scoped></style>

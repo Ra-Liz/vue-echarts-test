@@ -3,10 +3,13 @@
     <div class="w-1/6 h-full border-r-2 border-blue-200 rounded">
       <VList width="100%" height="100%">
         <VListItem>
-          <RouterLink to="/test1" active-class="text-blue-500">自定义饼图吟唱</RouterLink>
+          <RouterLink to="/test1" active-class="text-blue-500">自定义饼图</RouterLink>
         </VListItem>
         <VListItem>
-          <RouterLink to="/test2" active-class="text-blue-500">test2</RouterLink>
+          <RouterLink to="/test2" active-class="text-blue-500">自定义柱状图趋势</RouterLink>
+        </VListItem>
+        <VListItem>
+          <RouterLink to="/test3" active-class="text-blue-500">自定义风向图</RouterLink>
         </VListItem>
       </VList>
     </div>

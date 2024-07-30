@@ -1,7 +1,10 @@
 <template>
-  <div class="w-full h-full">
-    <button class="w-1/2 h-20 rounded bg-blue-200 hover:bg-blue-400" @click="handleChangeData">
-      点击更新数据
+  <div class="w-full h-full flex flex-col justify-center items-center">
+    <button
+      class="w-1/2 h-20 rounded bg-blue-200 hover:bg-blue-400 text-2xl"
+      @click="handleChangeData"
+    >
+      🖱️点击更新数据
     </button>
     <div id="chart" ref="chartContainer" class="w-1/2 h-1/2 bg-pink-200"></div>
   </div>
@@ -32,6 +35,7 @@ const initChart = () => {
 const setChartOptions = () => {
   if (myChart) {
     const option = {
+      // 这里可以配置背景色，当然也可以在容器声明
       backgroundColor: '#2c343c',
       title: {
         text: 'Customized Pie',
