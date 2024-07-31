@@ -78,6 +78,12 @@ const setChartOptions = async () => {
       legend: {
         data: legendData
       },
+      grid: {
+        left: '4%',
+        right: '4%',
+        bottom: '4%',
+        containLabel: true
+      },
       dataZoom: [
         {
           type: 'slider',
@@ -92,7 +98,8 @@ const setChartOptions = async () => {
       ],
       xAxis: {
         type: 'category',
-        data: xAxisData
+        data: xAxisData,
+        boundartGap: false
       },
       yAxis: {},
       series: [
