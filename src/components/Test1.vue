@@ -1,12 +1,12 @@
 <template>
   <div class="w-full h-full flex flex-col justify-center items-center">
     <button
-      class="w-1/2 h-20 rounded bg-blue-200 hover:bg-blue-400 text-2xl"
+      class="w-full h-20 rounded bg-blue-200 hover:bg-blue-400 text-2xl"
       @click="handleChangeData"
     >
       🖱️点击更新数据
     </button>
-    <div id="chart" ref="chartContainer" class="w-1/2 h-1/2 bg-pink-200"></div>
+    <div id="chart" ref="chartContainer" class="w-full h-full bg-pink-200"></div>
   </div>
 </template>
 

@@ -1,9 +1,9 @@
 <template>
   <div class="w-full h-full flex flex-col justify-center items-center">
-    <h1 class="text-3xl text-black w-1/2 h-20 bg-red-200 flex justify-center items-center">
+    <h1 class="text-3xl text-black w-full h-20 bg-red-200 flex justify-center items-center">
       自定义柱状图趋势吟唱
     </h1>
-    <div ref="containerRef" class="w-1/2 h-1/2 rounded border-2"></div>
+    <div ref="containerRef" class="w-full h-full rounded border-2"></div>
   </div>
 </template>
 
